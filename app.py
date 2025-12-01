@@ -436,7 +436,7 @@ if run_btn:
                 return f"{x*100:,.2f}%" if np.isfinite(x) else "n/a"
 
             st.metric("Total Return", fmt(m["Total Return"]))
-            st.metric("CAGR", fmt(m["CAGR"]))
+            st.metric("Compound Annual Growth Rate", fmt(m["CAGR"]))
             st.metric("Volatility", fmt(m["Volatility"]))
             st.metric("Sharpe", f"{m['Sharpe']:.2f}")
             st.metric("Max Drawdown", fmt(m["Max Drawdown"]))
