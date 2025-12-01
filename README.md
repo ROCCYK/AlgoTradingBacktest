@@ -77,3 +77,12 @@ All Python dependencies are listed in [`requirements.txt`](requirements.txt).
 ```bash
 git clone https://github.com/ROCCYK/AlgoTradingBacktest.git
 cd AlgoTradingBacktest
+
+## Live Demo / Web App
+
+You can try a live deploy of the backtest app here:
+
+[https://algotradingbacktest.streamlit.app/](https://algotradingbacktest.streamlit.app/)
+
+Use this link to launch the app in your browser without cloning the repo.  
+
